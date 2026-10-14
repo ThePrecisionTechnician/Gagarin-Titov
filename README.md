@@ -8,6 +8,22 @@ English · [Русский](README.ru.md)
 
 **Mod version:** 0.0.3 · **Game version:** No Man's Sky 4228 (Steam, Windows)
 
+## Screenshots
+
+All screenshots were taken in the game.
+
+**Planet search** — planet and system properties, plus one-click Paradise planet filters:
+
+![Planet search](screens/01_poisk_planet.webp)
+
+**Starships** — travel to crashed ships on a planet, Sentinel interceptors across the galaxy, and a ship builder:
+
+![Starships](screens/03_zvezdolety.webp)
+
+**Portals** — 12 glyphs, galaxy selection, and Apply:
+
+![Portals](screens/02_portaly.webp)
+
 ## What's new in 0.0.3
 
 - **Mouse and keyboard handling in the menu.** Fixed the cursor snapping to the center during flight and accidental keyboard input into menu fields.
@@ -59,24 +75,6 @@ Gagarin_Titov_0.0.3.zip
 5. **Start the game**, load a save, and press **`Ё`** (or `~` on an English keyboard) to open **Gagarin_Titov**. Press **`G`** for the planet table.
 
 **Uninstall:** delete `No Man's Sky\Binaries\winmm.dll`. You can also delete `GAMEDATA\Gagarin`, which contains the mod's settings and logs. The game and saves are not changed.
-
----
-
-## Screenshots
-
-All screenshots were taken in the game.
-
-**Planet search** — planet and system properties, plus one-click Paradise planet filters:
-
-![Planet search](screens/01_poisk_planet.webp)
-
-**Starships** — travel to crashed ships on a planet, Sentinel interceptors across the galaxy, and a ship builder:
-
-![Starships](screens/03_zvezdolety.webp)
-
-**Portals** — 12 glyphs, galaxy selection, and Apply:
-
-![Portals](screens/02_portaly.webp)
 
 ---
 
