@@ -1,12 +1,12 @@
-![Gagarin_Titov](screens/00_banner.jpg)
+![Gagarin-Titov](screens/00_banner.jpg)
 
-# Gagarin_Titov
+# Gagarin-Titov
 
 **A No Man's Sky mod with an in-game menu** for searching planets and ships across the galaxy, teleporting by address, placing any part anywhere, and changing the game's developer options. The interface is available in all 17 game languages. Free.
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.3 · **Game version:** No Man's Sky 4228 (Steam, Windows)
+**Mod version:** 0.0.4 · **Game version:** No Man's Sky 4228 (Steam, Windows)
 
 ## Screenshots
 
@@ -24,6 +24,15 @@ All screenshots were taken in the game.
 
 ![Portals](screens/02_portaly.webp)
 
+## What's new in 0.0.4
+
+- **Infinite jetpack:** enable it under **World → Game developer options** to keep jetpack fuel from running out. Turn it off to resume normal fuel use. This is separate from Infinite stamina.
+- **Optional multiplayer check:** Infinite jetpack follows **Only with Multiplayer off**. Leave that checkbox unchecked to use it with multiplayer enabled.
+- **Updates from this repository:** version 0.0.4 onward checks **ThePrecisionTechnician/Gagarin-Titov** for updates.
+- The tested menu mouse and keyboard fixes from 0.0.3 are included.
+
+**Upgrading from 0.0.3 or earlier:** install the 0.0.4 ZIP once using the steps below. Older versions check the former repository and cannot switch update sources automatically. Your existing settings stay in place.
+
 ## What's new in 0.0.3
 
 - **Mouse and keyboard handling in the menu.** Fixed the cursor snapping to the center during flight and accidental keyboard input into menu fields.
@@ -34,26 +43,24 @@ All screenshots were taken in the game.
 - **Keys are hooked as soon as the game starts**, independently of the menu, so warp from the Discoveries menu works reliably.
 - Shorter logs that focus on the information needed to diagnose problems.
 
-If you are upgrading from 0.0.1, you do not need to do anything: the mod updates itself when the game starts. The new version takes effect the next time you launch the game.
-
 ## Download and install
 
-**Download one file:** **`Gagarin_Titov_0.0.3.zip`** (5.22 MB) from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.4.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin_Titov_0.0.3.zip
+Gagarin-Titov_0.0.4.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
-└── Gagarin_Titov\              ← this guide and font license (not needed by the game)
+└── Gagarin-Titov\              ← this guide and font license (not needed by the game)
 ```
 
 **Install in 5 steps:**
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin_Titov_0.0.3.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin_Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.4.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
@@ -69,10 +76,10 @@ Gagarin_Titov_0.0.3.zip
    │   └── Gagarin\                    ← mod data
    │       ├── ships\catalog.txt, icons.bin
    │       └── parts\icons.bin
-   └── Gagarin_Titov\                  ← guide; can be deleted
+   └── Gagarin-Titov\                  ← guide; can be deleted
    ```
 4. **Check:** `winmm.dll` is in `No Man's Sky\Binaries\`, next to `NMS.exe`.
-5. **Start the game**, load a save, and press **`Ё`** (or `~` on an English keyboard) to open **Gagarin_Titov**. Press **`G`** for the planet table.
+5. **Start the game**, load a save, and press **`Ё`** (or `~` on an English keyboard) to open **Gagarin-Titov**. Press **`G`** for the planet table.
 
 **Uninstall:** delete `No Man's Sky\Binaries\winmm.dll`. You can also delete `GAMEDATA\Gagarin`, which contains the mod's settings and logs. The game and saves are not changed.
 
@@ -101,8 +108,8 @@ Open the menu with **`Ё`** (`~`); open the current system's planet table with *
 ### World
 
 - **Time of day:** Auto day and Auto night.
-- **Game developer options** are the game's own flags and can be toggled with checkboxes:
-  - Immortality; no player damage; infinite stamina.
+- **Game developer options** can be toggled with checkboxes:
+  - Immortality; no player damage; infinite stamina; infinite jetpack.
   - Everything is free (building and purchases); bases do not need power.
   - Galaxy map warps without fuel or the required drive.
   - Repeat simple interactions; buttons work without being held.
@@ -155,7 +162,7 @@ The mod is tied to a game version. After No Man's Sky updates, it checks `NMS.ex
 
 ### Auto-update
 
-When the game starts, the mod checks this repository for a newer version and downloads `winmm.dll`, verifying its size and checksum. The update takes effect the next time the game starts. Disable auto-update with the checkbox on the World tab.
+From version 0.0.4, the mod checks [ThePrecisionTechnician/Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov) for a newer version when the game starts and downloads `winmm.dll`, verifying its size and checksum. The update takes effect the next time the game starts. Disable auto-update with the checkbox on the World tab. If you turned it off during testing, enable it again to receive future updates.
 
 ### Antivirus warnings
 
@@ -177,7 +184,7 @@ The result should match the `winmm.dll` line in `SHA256SUMS.txt`.
 
 ## How it works
 
-When the game starts, it loads `winmm.dll`. Gagarin_Titov forwards all 181 functions to the system `winmm.dll` in `Windows\System32` without changing them—so game audio and timers work as usual—and starts the menu on a separate thread.
+When the game starts, it loads `winmm.dll`. Gagarin-Titov forwards all 181 functions to the system `winmm.dll` in `Windows\System32` without changing them—so game audio and timers work as usual—and starts the menu on a separate thread.
 
 - Settings: `No Man's Sky\GAMEDATA\Gagarin\settings.txt`
 - Logs: `No Man's Sky\GAMEDATA\Gagarin\logs\`
