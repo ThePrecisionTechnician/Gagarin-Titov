@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.6 · **Game version:** No Man's Sky 4228 (Steam, Windows)
+**Mod version:** 0.0.7 · **Game version:** No Man's Sky 4228 (Steam, Windows)
 
 ## Screenshots
 
@@ -24,6 +24,16 @@ All screenshots were taken in the game.
 
 ![Portals](screens/02_portaly.webp)
 
+## What's new in 0.0.7
+
+- **Private automatic updates:** approved moderators receive an individual update key. Updates come from the protected update service; GitHub access is not required to use the mod or receive updates.
+- **One-time setup:** install this ZIP manually, open **World**, paste your moderator key into **Update key from the maintainer**, click **Save key**, enable **Automatic updates with access key**, and restart the game.
+- Keys are saved for your Windows account in Windows Credential Manager. No key is included in this ZIP or saved in the game's settings file.
+- The updater verifies the download size and SHA-256 and applies the update on the next game launch. Missing/revoked keys or service outages leave the installed mod working.
+- The private update download/restart cycle passed the maintainer's in-game test. Universe search, infinite jetpack and input fixes are included.
+
+**Upgrading from 0.0.6 or earlier:** install this ZIP once and enter your own moderator key. Those versions cannot use the private update service. Do not share your key; request access from the maintainer through the Discord contact below.
+
 ## What's new in 0.0.6
 
 - **Entire universe (all galaxies):** select the new option under **Planet search → Search area** to search across all supported galaxies, expanding outwards while keeping your filters.
@@ -31,7 +41,7 @@ All screenshots were taken in the game.
 - Results include galaxy information. Existing time per frame, Pause, Resume and Stop controls remain available. This search area is enormous; a complete scan is not practical.
 - The universe-search preview passed the maintainer's in-game test.
 
-**Private repository:** downloads require access to this repository. Automatic updates currently cannot authenticate to the private repository; install the release ZIP manually.
+**Private repository:** GitHub downloads require repository access. The maintainer can send the ZIP directly; moderators do not need GitHub accounts. Version 0.0.7 onward uses the protected update service with individual moderator keys.
 
 ## What's new in 0.0.5
 
@@ -59,12 +69,12 @@ All screenshots were taken in the game.
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.6.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.7.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.6.zip
+Gagarin-Titov_0.0.7.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -74,7 +84,7 @@ Gagarin-Titov_0.0.6.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.6.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.7.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
@@ -176,7 +186,13 @@ The mod is tied to a game version. After No Man's Sky updates, it checks `NMS.ex
 
 ### Auto-update
 
-From version 0.0.4, the mod checks [ThePrecisionTechnician/Gagarin-Titov](https://github.com/ThePrecisionTechnician/Gagarin-Titov) for a newer version when the game starts and downloads `winmm.dll`, verifying its size and checksum. The update takes effect the next time the game starts. Disable auto-update with the checkbox on the World tab. If you turned it off during testing, enable it again to receive future updates.
+Version 0.0.7 onward checks the protected update service at game startup using your individual moderator key. Enter the key once on the **World** tab and click **Save key**, then restart. Keep **Automatic updates with access key** enabled to receive future updates.
+
+The key is stored in Windows Credential Manager for your Windows account on this computer. Downloads stay on the fixed HTTPS update service; redirects are rejected. The DLL's size and SHA-256 are checked before replacement. The new version loads on the next game launch.
+
+If the key is unavailable or revoked, contact the maintainer. Update access can be revoked without disabling the mod version you already have. The owner can see requests made with each assigned key; a request is not proof that an update was installed.
+
+Versions 0.0.6 and earlier need a one-time manual upgrade to 0.0.7. A GitHub login cannot authenticate those older updaters to the private repository.
 
 ### Antivirus warnings
 
