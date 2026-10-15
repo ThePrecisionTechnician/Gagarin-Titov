@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.4 · **Game version:** No Man's Sky 4228 (Steam, Windows)
+**Mod version:** 0.0.5 · **Game version:** No Man's Sky 4228 (Steam, Windows)
 
 ## Screenshots
 
@@ -24,6 +24,11 @@ All screenshots were taken in the game.
 
 ![Portals](screens/02_portaly.webp)
 
+## What's new in 0.0.5
+
+- **English (US) by default:** fresh installations open the in-game menu in English (US). Saved language selections are preserved.
+- To change an existing installation, select **English (US)** in the **Language** list at the bottom of the menu.
+
 ## What's new in 0.0.4
 
 - **Infinite jetpack:** enable it under **World → Game developer options** to keep jetpack fuel from running out. Turn it off to resume normal fuel use. This is separate from Infinite stamina.
@@ -31,7 +36,7 @@ All screenshots were taken in the game.
 - **Updates from this repository:** version 0.0.4 onward checks **ThePrecisionTechnician/Gagarin-Titov** for updates.
 - The tested menu mouse and keyboard fixes from 0.0.3 are included.
 
-**Upgrading from 0.0.3 or earlier:** install the 0.0.4 ZIP once using the steps below. Older versions check the former repository and cannot switch update sources automatically. Your existing settings stay in place.
+**Upgrading from 0.0.3 or earlier:** install the current ZIP once using the steps below. Older versions check the former repository and cannot switch update sources automatically. Your existing settings stay in place.
 
 ## What's new in 0.0.3
 
@@ -45,12 +50,12 @@ All screenshots were taken in the game.
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.4.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.5.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.4.zip
+Gagarin-Titov_0.0.5.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -60,7 +65,7 @@ Gagarin-Titov_0.0.4.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.4.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.5.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
@@ -122,7 +127,7 @@ Open the menu with **`Ё`** (`~`); open the current system's planet table with *
 - **Higher building limits.**
 - **Warp from Discoveries:** a “Teleport” row appears on a planet's Discoveries page. Use `X` (rebindable) or `Y` on a gamepad.
 - **Galactic scanner** reveals all planets in the current system. **Scan planet** reveals nearby plants, minerals, and animals and grants the same reward as a visor scan.
-- **Menu language:** choose any of the game's 17 languages; changes apply immediately.
+- **Menu language:** English (US) by default; choose any of the game's 17 languages. Changes apply immediately and your selection is saved.
 
 ### Portals
 
