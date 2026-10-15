@@ -231,13 +231,13 @@ Get-FileHash "C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\Binarie
 Напиши мне: что делал, что ожидал, что получилось. Пригодятся версия игры, язык меню и журнал
 `GAMEDATA\Gagarin\logs\` (последняя папка).
 
-- Discord: [autoeme](https://discord.com/users/683764720821600301)
+- Discord: [ThePrecisionTechnician](https://discord.com/users/262494560545013762)
 - Nexus Mods: [GAGARIN NMS](https://www.nexusmods.com/nomanssky/mods/4359)
-- GitHub: [autoeme](https://github.com/autoeme)
+- GitHub: [ThePrecisionTechnician](https://github.com/ThePrecisionTechnician)
 
 Кнопки «Поддержать автора» и Discord есть и в самом меню, внизу.
 
-**Поддержать:** [DonationAlerts](https://www.donationalerts.com/r/autoeme)
+**Поддержать проект:** [Patreon](https://www.patreon.com/cw/ThePrecisionTechnician)
 
 ---
 

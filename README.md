@@ -200,13 +200,13 @@ When the game starts, it loads `winmm.dll`. Gagarin-Titov forwards all 181 funct
 
 Tell me what you did, what you expected, and what happened. The game version, menu language, and latest log from `GAMEDATA\Gagarin\logs\` are helpful.
 
-- Discord: [autoeme](https://discord.com/users/683764720821600301)
+- Discord: [ThePrecisionTechnician](https://discord.com/users/262494560545013762)
 - Nexus Mods: [GAGARIN NMS](https://www.nexusmods.com/nomanssky/mods/4359)
-- GitHub: [autoeme](https://github.com/autoeme)
+- GitHub: [ThePrecisionTechnician](https://github.com/ThePrecisionTechnician)
 
 The in-game menu also has **Support** and **Discord** buttons at the bottom.
 
-**Support the author:** [DonationAlerts](https://www.donationalerts.com/r/autoeme)
+**Support the project:** [Patreon](https://www.patreon.com/cw/ThePrecisionTechnician)
 
 ---
 
