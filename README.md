@@ -1,6 +1,6 @@
 ![Gagarin-Titov](screens/00_banner.jpg)
 
-# Gagarin-Titov
+# GAGARIN-TITOV
 
 **A No Man's Sky mod with an in-game menu** for searching planets and ships across the galaxy, teleporting by address, placing any part anywhere, and changing the game's developer options. The interface is available in all 17 game languages. Free.
 
