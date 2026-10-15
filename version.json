@@ -1,7 +1,7 @@
 {
-  "build": 5,
-  "version": "0.0.5",
-  "size": 2985472,
-  "sha256": "fc6f3269ecf9b9ad7cf1c063b076a00aa9288363f28685b204ae9667da13c282",
+  "build": 6,
+  "version": "0.0.6",
+  "size": 2989568,
+  "sha256": "08cb374cfb6ee4361607d0841c65893fb6f7678230b38ed97d95a596149f1e74",
   "url": "https://raw.githubusercontent.com/ThePrecisionTechnician/Gagarin-Titov/main/winmm.dll"
 }

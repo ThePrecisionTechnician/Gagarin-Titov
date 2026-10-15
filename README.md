@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.5 · **Game version:** No Man's Sky 4228 (Steam, Windows)
+**Mod version:** 0.0.6 · **Game version:** No Man's Sky 4228 (Steam, Windows)
 
 ## Screenshots
 
@@ -23,6 +23,15 @@ All screenshots were taken in the game.
 **Portals** — 12 glyphs, galaxy selection, and Apply:
 
 ![Portals](screens/02_portaly.webp)
+
+## What's new in 0.0.6
+
+- **Entire universe (all galaxies):** select the new option under **Planet search → Search area** to search across all supported galaxies, expanding outwards while keeping your filters.
+- The **Galaxy** selector is greyed out and inaccessible in this mode; switching back preserves your previous galaxy choice.
+- Results include galaxy information. Existing time per frame, Pause, Resume and Stop controls remain available. This search area is enormous; a complete scan is not practical.
+- The universe-search preview passed the maintainer's in-game test.
+
+**Private repository:** downloads require access to this repository. Automatic updates currently cannot authenticate to the private repository; install the release ZIP manually.
 
 ## What's new in 0.0.5
 
@@ -50,12 +59,12 @@ All screenshots were taken in the game.
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.5.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.6.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.5.zip
+Gagarin-Titov_0.0.6.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -65,7 +74,7 @@ Gagarin-Titov_0.0.5.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.5.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.6.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
