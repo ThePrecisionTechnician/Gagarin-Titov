@@ -241,6 +241,6 @@ Get-FileHash "C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\Binarie
 
 ---
 
-Мод бесплатный и делается одним человеком. No Man's Sky, её детали, названия и шрифт принадлежат Hello Games —
-мод показывает и использует то, что уже лежит в твоей копии игры. Шрифт меню — NMS Futura Pro Book из игры, условия —
-`NMS-Font-LICENSE.txt`, источник — `NMS-Font-source.json`.
+GAGARIN TITOV создан **autoeme** и передан **ThePrecisionTechnician**, который теперь поддерживает проект.
+
+No Man's Sky, её детали, названия и шрифт принадлежат Hello Games — мод показывает и использует то, что уже лежит в твоей копии игры.

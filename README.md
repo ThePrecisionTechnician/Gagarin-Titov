@@ -210,4 +210,6 @@ The in-game menu also has **Support** and **Discord** buttons at the bottom.
 
 ---
 
-This mod is free and made by one person. No Man's Sky, its assets, names, and font belong to Hello Games. The mod displays and uses data already present in your copy of the game. The menu font is NMS Futura Pro Book from the game; see `NMS-Font-LICENSE.txt` and `NMS-Font-source.json` for the license and source.
+GAGARIN TITOV was created by **autoeme** and was passed on and is now maintained by **ThePrecisionTechnician**.
+
+No Man's Sky, its assets, names, and font belong to Hello Games. The mod displays and uses data already present in your copy of the game.
