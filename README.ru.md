@@ -232,7 +232,6 @@ Get-FileHash "C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\Binarie
 `GAMEDATA\Gagarin\logs\` (последняя папка).
 
 - Discord: [ThePrecisionTechnician](https://discord.com/users/262494560545013762)
-- Nexus Mods: [GAGARIN NMS](https://www.nexusmods.com/nomanssky/mods/4359)
 - GitHub: [ThePrecisionTechnician](https://github.com/ThePrecisionTechnician)
 
 Кнопки «Поддержать автора» и Discord есть и в самом меню, внизу.
