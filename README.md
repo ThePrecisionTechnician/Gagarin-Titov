@@ -10,19 +10,55 @@ English · [Русский](README.ru.md)
 
 ## Screenshots
 
-All screenshots were taken in the game. They show the previous interface; new screenshots of the 0.0.8 design will follow.
+All eight screenshots were captured in No Man’s Sky with the 0.0.8 preview. The released version uses the same interface. Click an image to view it at full size.
 
-**Planet search** — planet and system properties, plus one-click Paradise planet filters:
+### Planet search
 
-![Planet search](screens/01_poisk_planet.webp)
+Search real systems across all galaxies, with filters for biome, weather, resources, vegetation and system properties.
 
-**Starships** — travel to crashed ships on a planet, Sentinel interceptors across the galaxy, and a ship builder:
+![Planet search](screens/01_planet_search.png)
 
-![Starships](screens/03_zvezdolety.webp)
+### Colours, creatures and search results
 
-**Portals** — 12 glyphs, galaxy selection, and Apply:
+Filter water, grass, plants and sky colours, refine creature properties, and inspect results with portal addresses and paradise ratings.
 
-![Portals](screens/02_portaly.webp)
+![Colours, creatures and search results](screens/02_search_results.png)
+
+### Planet panel
+
+The G-key overlay compares planets at a glance: biomes, terrain, weather, resources, colours, fauna and buildings.
+
+![Planet panel](screens/03_planet_panel.png)
+
+### Starships and Sentinel interceptors
+
+Find nearby crash sites or search the galaxy for interceptors, with seed, colour, hull-pattern and ship-part filters.
+
+![Starships and Sentinel interceptors](screens/04_starships.png)
+
+### Portal travel
+
+Choose a galaxy and enter a 12-glyph portal address using the glyph buttons or hexadecimal input.
+
+![Portal travel](screens/05_portals.png)
+
+### World and developer options
+
+Day/night controls and game options, including infinite stamina and jetpack; the building-limit status shows all six patches applied.
+
+![World and developer options](screens/06_developer_options.png)
+
+### Scanner, updates and language
+
+World-tab controls for discovery travel, galactic and planet scanning, private automatic updates, and interface language.
+
+![Scanner, updates and language](screens/07_world_settings.png)
+
+### Kuat Drive Yards — in-game showcase
+
+A wide view of the Kuat Drive Yards interior, with the menu hidden.
+
+![Kuat Drive Yards — in-game showcase](screens/08_kuat_drive_yards.png)
 
 ## What's new in 0.0.8
 
