@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.8 · **Game version:** No Man's Sky Forsaken 7.11 · engine 4231 · Steam build 26295378 (Windows)
+**Mod version:** 0.0.9 · **Game version:** No Man's Sky Forsaken 7.13 · engine 4233 · Steam build 26386568 (Windows)
 
 ## Screenshots
 
@@ -60,6 +60,13 @@ A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ![Kuat Drive Yards — in-game showcase](screens/08_kuat_drive_yards.png)
 
+## What's new in 0.0.9
+
+- **Forsaken 7.13 compatibility:** updated for engine 4233 / Steam build 26386568, with exact executable checks.
+- **Updated runtime integration:** refreshed searches, scanner/discoveries travel, teleporting, developer options/jetpack, day/night controls, building and navigation helpers.
+- **Startup fix:** corrected the resource-hook instruction boundary and added build-time checks for all seven release detour prefixes.
+- The maintainer confirmed the corrected preview works in game. The existing interface, saved settings, screenshots and private update keys are preserved.
+
 ## What's new in 0.0.8
 
 - **Forsaken 7.11 compatibility:** updated for engine 4231 / Steam build 26295378, with checks against the exact game executable.
@@ -112,12 +119,12 @@ A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.8.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.9.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.8.zip
+Gagarin-Titov_0.0.9.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -127,7 +134,7 @@ Gagarin-Titov_0.0.8.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.8.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.9.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
