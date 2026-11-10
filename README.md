@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.9 · **Game version:** No Man's Sky Forsaken 7.13 · engine 4233 · Steam build 26386568 (Windows)
+**Mod version:** 0.0.10 · **Game compatibility:** No Man's Sky · engine 4234 · Steam build 26540391 (Windows)
 
 ## Screenshots
 
@@ -50,7 +50,7 @@ Day/night controls and game options, including infinite stamina and jetpack; the
 
 ### Scanner, updates and language
 
-World-tab controls for discovery travel, galactic and planet scanning, private automatic updates, and interface language.
+World-tab controls for discovery travel, galactic and planet scanning, automatic updates, and interface language. The older screenshot shows the previous key-based updater; current releases need no key.
 
 ![Scanner, updates and language](screens/07_world_settings.png)
 
@@ -59,6 +59,18 @@ World-tab controls for discovery travel, galactic and planet scanning, private a
 A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ![Kuat Drive Yards — in-game showcase](screens/08_kuat_drive_yards.png)
+
+## What's new in 0.0.10
+
+- **Current game support:** engine 4234 / Steam build 26540391, with exact executable compatibility checks.
+- **Free public updates:** automatic updates from this GitHub repository, enabled by default. No account, update key or payment required; you can turn updates off in World.
+- **NVIDIA overlay visibility:** uses the same swapchain images as the game.
+- **Alt-Tab handling:** leaving the game closes the menu and releases the cursor; reopen it with tilde after returning.
+- **Portal arrival:** adds clearance outside the portal structure, including a correction after glyph travel.
+- **Search layout:** progress and results now sit directly below Start/Pause/Stop.
+- **Support and contact:** a blood-red support button opens the project links page; the Discord button is gold.
+
+**Upgrading:** install the 0.0.10 ZIP once to switch from the old key-based updater. Existing settings are retained; old keys are no longer needed by this release.
 
 ## What's new in 0.0.9
 
@@ -76,13 +88,14 @@ A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ## What's new in 0.0.7
 
+Historical notes: the key-based updater below was replaced by free public updates in 0.0.10.
+
 - **Private automatic updates:** approved moderators receive an individual update key. Updates come from the protected update service; GitHub access is not required to use the mod or receive updates.
 - **One-time setup:** install this ZIP manually, open **World**, paste your moderator key into **Update key from the maintainer**, click **Save key**, enable **Automatic updates with access key**, and restart the game.
 - Keys are saved for your Windows account in Windows Credential Manager. No key is included in this ZIP or saved in the game's settings file.
 - The updater verifies the download size and SHA-256 and applies the update on the next game launch. Missing/revoked keys or service outages leave the installed mod working.
 - The private update download/restart cycle passed the maintainer's in-game test. Universe search, infinite jetpack and input fixes are included.
 
-**Upgrading from 0.0.6 or earlier:** install this ZIP once and enter your own moderator key. Those versions cannot use the private update service. Do not share your key; request access from the maintainer through the Discord contact below.
 
 ## What's new in 0.0.6
 
@@ -119,12 +132,12 @@ A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.9.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.10.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.9.zip
+Gagarin-Titov_0.0.10.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -134,7 +147,7 @@ Gagarin-Titov_0.0.9.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.9.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.10.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
@@ -236,13 +249,11 @@ The mod is tied to a game version. After No Man's Sky updates, it checks `NMS.ex
 
 ### Auto-update
 
-Version 0.0.7 onward checks the protected update service at game startup using your individual moderator key. Enter the key once on the **World** tab and click **Save key**, then restart. Keep **Automatic updates with access key** enabled to receive future updates.
+Version 0.0.10 uses this public GitHub repository for free updates. **Auto-update from GitHub** is enabled by default on the World tab. No GitHub login, access key or payment is needed. Your saved opt-out setting is respected.
 
-The key is stored in Windows Credential Manager for your Windows account on this computer. Downloads stay on the fixed HTTPS update service; redirects are rejected. The DLL's size and SHA-256 are checked before replacement. The new version loads on the next game launch.
+At startup, Titov checks for a newer build, verifies the DLL size and SHA-256, and installs it for the next game launch. If the update service is unavailable, the installed mod remains in place. You can disable automatic updates in World.
 
-If the key is unavailable or revoked, contact the maintainer. Update access can be revoked without disabling the mod version you already have. The owner can see requests made with each assigned key; a request is not proof that an update was installed.
-
-Versions 0.0.6 and earlier need a one-time manual upgrade to 0.0.7. A GitHub login cannot authenticate those older updaters to the private repository.
+If you used the older access-key updater, install the 0.0.10 ZIP manually once. The free release does not show key controls or use your stored key.
 
 ### Antivirus warnings
 
@@ -280,7 +291,7 @@ Tell me what you did, what you expected, and what happened. The game version, me
 
 The in-game menu also has **Support** and **Discord** buttons at the bottom.
 
-**Support the project:** [Patreon](https://www.patreon.com/cw/ThePrecisionTechnician)
+**Support and project links:** [ThePrecisionTechnician](https://theprecisiontechnician.carrd.co/?v=kdy-precision)
 
 ---
 

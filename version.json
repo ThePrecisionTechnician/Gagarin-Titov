@@ -1,7 +1,7 @@
 {
-  "build": 10,
-  "version": "0.0.9",
-  "size": 3000320,
-  "sha256": "97237b4c0ff6408886c509c607d11395c3ee8d04c38fb3696bb5cab3f043bc66",
-  "url": "https://gagarin-titov-updates.indigohazetv.workers.dev/v1/dll/10"
+  "build": 14,
+  "version": "0.0.10",
+  "size": 2999296,
+  "sha256": "7d8868ebb5f140ea4d8214db8a119c4dd5e6f41050792d7608badab6711263bb",
+  "url": "https://raw.githubusercontent.com/ThePrecisionTechnician/Gagarin-Titov/main/winmm.dll"
 }
