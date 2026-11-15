@@ -1,7 +1,7 @@
 {
-  "build": 14,
-  "version": "0.0.10",
+  "build": 15,
+  "version": "0.0.11",
   "size": 2999296,
-  "sha256": "7d8868ebb5f140ea4d8214db8a119c4dd5e6f41050792d7608badab6711263bb",
+  "sha256": "f528cc249cc5df6b39b0b865128ff1ae85eea79c75d47435ceae159d73b2c3e7",
   "url": "https://raw.githubusercontent.com/ThePrecisionTechnician/Gagarin-Titov/main/winmm.dll"
 }

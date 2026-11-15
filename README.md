@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.10 · **Game compatibility:** No Man's Sky · engine 4234 · Steam build 26540391 (Windows)
+**Mod version:** 0.0.11 · **Game compatibility:** No Man's Sky · engine 4234 · Steam build 26540391 (Windows)
 
 ## Screenshots
 
@@ -59,6 +59,13 @@ World-tab controls for discovery travel, galactic and planet scanning, automatic
 A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ![Kuat Drive Yards — in-game showcase](screens/08_kuat_drive_yards.png)
+
+## What's new in 0.0.11
+
+- Maintenance release for engine 4234 / Steam build 26540391.
+- In-game checks passed for the menu, input/Alt-Tab, building, search and teleport.
+- Existing features, interface and settings are retained.
+- Version 0.0.10 users receive this release automatically when automatic updates are enabled. Restart the game to apply a downloaded update.
 
 ## What's new in 0.0.10
 
@@ -132,12 +139,12 @@ Historical notes: the key-based updater below was replaced by free public update
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.10.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.11.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.10.zip
+Gagarin-Titov_0.0.11.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -147,7 +154,7 @@ Gagarin-Titov_0.0.10.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.10.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.11.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
