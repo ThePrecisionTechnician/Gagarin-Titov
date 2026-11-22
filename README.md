@@ -6,11 +6,11 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.11 · **Game compatibility:** No Man's Sky · engine 4234 · Steam build 26540391 (Windows)
+**Mod version:** 0.0.12 · **Game compatibility:** No Man's Sky · engine 4234 · Steam build 26540391 (Windows)
 
 ## Screenshots
 
-All eight screenshots were captured in No Man’s Sky with the 0.0.8 preview. The released version uses the same interface. Click an image to view it at full size.
+All eight screenshots were captured in No Man’s Sky with the 0.0.8 preview. The screenshots predate the Controls tab; current releases retain the same visual style. Click an image to view it at full size.
 
 ### Planet search
 
@@ -59,6 +59,15 @@ World-tab controls for discovery travel, galactic and planet scanning, automatic
 A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ![Kuat Drive Yards — in-game showcase](screens/08_kuat_drive_yards.png)
+
+## What's new in 0.0.12
+
+- **Customizable controls:** open the new **Controls** tab to rebind the menu, planet table and discovery-travel shortcuts. Bindings are saved between sessions.
+- **International keyboards:** the default menu shortcut uses the physical key below Esc, without needing to type a tilde.
+- **Recovery shortcut:** **Ctrl+Shift+F10** always toggles the menu if your chosen key is inaccessible.
+- **Safer rebinding:** duplicate Titov keys and reserved keys are rejected, Esc cancels capture, and Reset restores defaults. Game key conflicts must be checked in NMS settings.
+- **Text entry:** letter shortcuts defer to menu text fields and portal-address entry; holding a key does not repeatedly toggle a menu.
+- The owner confirmed the installed controls preview works in game. Final build **16** retains those changes; engine 4234 / Steam build 26540391 support is unchanged. The new Controls page currently uses English labels.
 
 ## What's new in 0.0.11
 
@@ -139,12 +148,12 @@ Historical notes: the key-based updater below was replaced by free public update
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.11.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.12.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.11.zip
+Gagarin-Titov_0.0.12.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -154,7 +163,7 @@ Gagarin-Titov_0.0.11.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.11.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.12.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
@@ -173,7 +182,7 @@ Gagarin-Titov_0.0.11.zip
    └── Gagarin-Titov\                  ← guide; can be deleted
    ```
 4. **Check:** `winmm.dll` is in `No Man's Sky\Binaries\`, next to `NMS.exe`.
-5. **Start the game**, load a save, and press **`Ё`** (or `~` on an English keyboard) to open **Gagarin-Titov**. Press **`G`** for the planet table.
+5. **Start the game**, load a save, and press the **physical key below Esc** to open **Gagarin-Titov**. **Ctrl+Shift+F10** is the recovery shortcut. The planet table defaults to **G**. Open **Controls** to change bindings.
 
 **Uninstall:** delete `No Man's Sky\Binaries\winmm.dll`. You can also delete `GAMEDATA\Gagarin`, which contains the mod's settings and logs. The game and saves are not changed.
 
@@ -181,7 +190,9 @@ Gagarin-Titov_0.0.11.zip
 
 ## Features
 
-Open the menu with **`Ё`** (`~`); open the current system's planet table with **`G`**.
+Open the menu with the **physical key below Esc**; the planet table defaults to **G**, and discovery travel to **X**. Rebind all three in **Controls**. **Ctrl+Shift+F10** remains available for recovery.
+
+For manual recovery while NMS is closed, edit `GAMEDATA/Gagarin/settings.txt`: `menuKey=0` restores the physical menu key. `menuKey=117`, `planetKey=118`, `warpKey=119` select F6/F7/F8. Values use Windows virtual-key numbers; conflicting assignments reset the three keys to defaults.
 
 ### Planet search
 
