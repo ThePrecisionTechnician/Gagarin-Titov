@@ -6,7 +6,7 @@
 
 English · [Русский](README.ru.md)
 
-**Mod version:** 0.0.12 · **Game compatibility:** No Man's Sky · engine 4234 · Steam build 26540391 (Windows)
+**Mod version:** 0.0.13 · **Game compatibility:** No Man's Sky · engine 4235 · Steam build 26924890 (Windows)
 
 ## Screenshots
 
@@ -59,6 +59,15 @@ World-tab controls for discovery travel, galactic and planet scanning, automatic
 A wide view of the Kuat Drive Yards interior, with the menu hidden.
 
 ![Kuat Drive Yards — in-game showcase](screens/08_kuat_drive_yards.png)
+
+## What's new in 0.0.13
+
+- **New game compatibility:** engine **4235** / Steam build **26924890** on Windows, with exact executable identity checks.
+- Updated runtime hooks and application/player layouts for planet and ship searches, scanners, discoveries and teleporting.
+- Refreshed developer options/jetpack, day/night, building controls, all six building limits and navigation helpers.
+- Retained customizable controls, saved settings, public automatic updates, menu styling, NVIDIA overlay handling, Alt-Tab behavior and portal-arrival clearance.
+- All **46 native test programs**, executable guards, Vulkan slot checks and a zero-difference **15,072-byte** native planet-constructor comparison passed.
+- Build **18** is delivered through the public updater when automatic updates are enabled. Restart after downloading to apply it. Older key-based versions need one manual upgrade.
 
 ## What's new in 0.0.12
 
@@ -148,12 +157,12 @@ Historical notes: the key-based updater below was replaced by free public update
 
 ## Download and install
 
-**Download one file:** **`Gagarin-Titov_0.0.12.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
+**Download one file:** **`Gagarin-Titov_0.0.13.zip`** from the [**Releases**](../../releases/latest) page, in the release's **Assets** section. The “Source code” files are not the mod; GitHub adds them automatically.
 
 **The archive contains:**
 
 ```
-Gagarin-Titov_0.0.12.zip
+Gagarin-Titov_0.0.13.zip
 ├── Binaries\winmm.dll          ← the mod (one file)
 ├── GAMEDATA\Gagarin\           ← ship catalog and part icons for the menu
 └── Gagarin-Titov\              ← this guide and font license (not needed by the game)
@@ -163,7 +172,7 @@ Gagarin-Titov_0.0.12.zip
 
 1. **Close the game.**
 2. **Open the game folder:** in Steam, go to Library → right-click **No Man's Sky** → **Manage** → **Browse local files**. The folder usually looks like `C:\Program Files (x86)\Steam\steamapps\common\No Man's Sky\` and contains `Binaries` and `GAMEDATA`.
-3. **Open** `Gagarin-Titov_0.0.12.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
+3. **Open** `Gagarin-Titov_0.0.13.zip`, select everything inside (`Binaries`, `GAMEDATA`, and `Gagarin-Titov`), and **drag it into the No Man's Sky folder** from step 2—the folder that contains `Binaries` and `GAMEDATA`.
    - Do not copy the files *inside* `Binaries` or `GAMEDATA`; copy the three folders into the main `No Man's Sky` folder.
    - If Windows asks whether to merge folders or replace files, choose **Yes/Replace**. The game's own files are not changed; this only adds the mod files.
 
